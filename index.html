@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login_container">
+        <div class="login_box">
+
+            <h1>LOGIN</h1>
+            <form id="loginform" class="login_form" >
+                <label for="email">email</label>
+                <input type="email" id="email" name="email">
+                <p id="errEmail">Enter a valid email</p>
+                <br>
+                
+                <label for="password">password</label>
+                <input type="password" id="password" name="password">
+                <p id="errPass">Enter strong password</p>
+                <br>
+                <button type="button" onclick="validate(event)">submit</button>    
+            </form>
+
+        </div>
+    </div>
+
+
+<script src="hello.js"></script>
+</body>
+
+</html>
